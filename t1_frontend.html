@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Professores</title>
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT"
+      crossorigin="anonymous"
+    />
+    <style>
+      body {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+        background-color: #f8f9fa;
+        margin: 0;
+        padding: 0;
+      }
+
+      .header {
+        text-align: center;
+        padding: 2rem 0;
+        background-color: #007bff;
+        color: white;
+      }
+
+      .title {
+        font-size: 3rem;
+        font-weight: bold;
+        border-bottom: 3px solid white;
+        display: inline-block;
+        padding-bottom: 0.5rem;
+        margin-bottom: 0;
+      }
+
+      .content {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1.5rem;
+      }
+
+      .card {
+        background-color: white;
+        border: 2px solid #007bff;
+        border-radius: 10px;
+        max-width: 18rem;
+        text-align: center;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        padding: 1.5rem;
+      }
+
+      .info {
+        font-size: 1.2rem;
+        margin-top: 1rem;
+        color: #333;
+      }
+
+      .info:last-child {
+        font-size: 1rem;
+        color: #6c757d;
+      }
+
+      @media (max-width: 768px) {
+        .title {
+          font-size: 2rem;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="header">
+      <p class="title">Livros</p>
+    </div>
+    <div class="container-fluid content py-5">
+      <div class="card">
+        <img
+          src="IMAGES/romeuejulieta.jpg"
+          alt="Romeu e Julieta"
+          style="width: 100px"
+        />
+        <p class="info">Romeu e Julieta</p>
+        <p class="info">William Shakespeare</p>
+      </div>
+      <div class="card">
+        <img
+          src="IMAGES/domcasmurro.jpg"
+          alt="Dom Casmurro"
+          style="width: 100px"
+        />
+        <p class="info">Dom Casmurro</p>
+        <p class="info">Machado de Assis</p>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-u1OknCvxWvY5kfmNBILK2hRnQC3Pr17a+RTT6rIHI7NnikvbZlHgTPOOmMi466C8"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>
